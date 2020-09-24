@@ -1,7 +1,9 @@
 import React from 'react';
-import './App.css';
-import Header from './header/Header';
 import {BrowserRouter as Router , Switch, Route} from 'react-router-dom';
+import Header from './header/Header';
+import Card from './card/Card'
+import './App.css';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Router>
         <Switch>
           <Route path='/'>
-            <h1>home page</h1>
+            <Card/>
+            <Footer/>
           </Route>
         </Switch>
       </Router>
