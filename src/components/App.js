@@ -3,7 +3,7 @@ import {BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 import Header from './header/Header';
 import Card from './card/Card'
 import Footer from './footer/Footer';
-import ChatList from './ChatList/ChatList';
+import ChatList from './chatList/ChatList';
 import './App.css';
 
 
@@ -12,12 +12,12 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path='/chat'>
+          <Route path='/chats'>
             <Header backButtom ='/'/> 
             <ChatList/>
           </Route>
           <Route path='/'>
-          <Header/> 
+            <Header/> 
             <Card/>
             <Footer/>
           </Route>

@@ -28,7 +28,7 @@ import './Header.css';
             <Link to='/'>
                 <img className='header__logo' src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png" alt="logo"/>
             </Link>
-            <Link to='/chat'>
+            <Link to='/chats'>
                 <IconButton>
                     <ForumIcon className='header__icon' fontSize='large'/>
                 </IconButton>
