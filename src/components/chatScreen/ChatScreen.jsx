@@ -14,6 +14,12 @@ const ChatScreen = () => {
         {
             name: 'Andry',
             image: 'https://scontent.fgua3-2.fna.fbcdn.net/v/t1.0-9/117444848_3207749179316343_2312175914363237521_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=7pxa-39va_IAX9zOqdi&_nc_ht=scontent.fgua3-2.fna&oh=83b561fbd4279d826e4d2d29a35b0c2d&oe=5F89E89B',
+            message: 'heyyyyyyyyyyy'
+        },
+        
+        {
+            name: 'Andry',
+            image: 'https://scontent.fgua3-2.fna.fbcdn.net/v/t1.0-9/117444848_3207749179316343_2312175914363237521_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=7pxa-39va_IAX9zOqdi&_nc_ht=scontent.fgua3-2.fna&oh=83b561fbd4279d826e4d2d29a35b0c2d&oe=5F89E89B',
             message: 'vamo a jugar amoung :v'
         },
         {
