@@ -4,6 +4,7 @@ import Header from './header/Header';
 import Card from './card/Card'
 import Footer from './footer/Footer';
 import ChatList from './chatList/ChatList';
+import ChatScreen from './chatScreen/ChatScreen';
 import './App.css';
 
 
@@ -12,6 +13,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path='/chats/:person'>
+            <Header backButtom ='/chats'/> 
+             <ChatScreen/>
+          </Route>
           <Route path='/chats'>
             <Header backButtom ='/'/> 
             <ChatList/>

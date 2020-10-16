@@ -8,13 +8,13 @@ const ChatList = () => {
         <div className='chatlist'>
             <Chat
             name='Andry'
-            message='ahah no ve la publicacion.. :(' 
+            message='hah nuuuu no puedo hoy :(' 
             timestamp='35 min ago'
             profilePic='https://scontent.fgua3-2.fna.fbcdn.net/v/t1.0-9/117444848_3207749179316343_2312175914363237521_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=7pxa-39va_IAX9zOqdi&_nc_ht=scontent.fgua3-2.fna&oh=83b561fbd4279d826e4d2d29a35b0c2d&oe=5F89E89B' 
             />
             <Chat
             name='Maribel'
-            message='hey hey'
+            message='hey hey ..'
             timestamp='35 min ago'
             profilePic='https://scontent.fgua3-2.fna.fbcdn.net/v/t1.0-9/120855343_2412198599075838_2942187203163021595_n.jpg?_nc_cat=109&_nc_sid=8bfeb9&_nc_ohc=0mhPcAPRmpcAX9GQFWk&_nc_ht=scontent.fgua3-2.fna&oh=073abe577206b09342c711667de417d5&oe=5FA2B25F' 
             />
